@@ -1,0 +1,46 @@
+/* assets/style.css */
+/* Основные стили */
+.stApp {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Карточки */
+.css-1r6slb0 {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Кнопки */
+.stButton>button {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    color: #2c3e50 !important;
+}
+
+/* Чат-интерфейс */
+.stChatMessage {
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+/* Ассистент */
+[data-testid="stChatMessage"]:has(> div > div > div > [data-testid="stMarkdown"] > div:contains("🤖")) {
+    background: #e3f2fd;
+}
+
+/* Пользователь */
+[data-testid="stChatMessage"]:has(> div > div > div > [data-testid="stMarkdown"] > div:contains("👤")) {
+    background: #f3e5f5;
+}

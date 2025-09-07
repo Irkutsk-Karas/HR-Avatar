@@ -1,0 +1,6 @@
+{
+    "name": "Python Разработчик",
+    "required_skills": ["Python", "Django", "PostgreSQL", "Docker"],
+    "required_experience": 2,
+    "description": "Разработка веб-приложений на Python"
+}
